@@ -1,5 +1,7 @@
 package com.springboot.taku.dao;
 
-public class UserDao {
+import com.springboot.taku.user.User;
 
+public interface UserDao {
+    void save(User user);
 }
